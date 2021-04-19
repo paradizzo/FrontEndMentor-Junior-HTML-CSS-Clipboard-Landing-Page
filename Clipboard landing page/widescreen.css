@@ -1,0 +1,67 @@
+.header {
+    background-image: url(images/bg-header-desktop.png);
+}
+.header-textbox {
+    margin-left: 30ch;
+    margin-right: 30ch;
+}
+.content-pc {
+    margin-top: 15ch;
+}
+.pc-textbox {
+    margin-left: 30ch;
+    margin-right: 30ch;
+}
+.wraper {
+    display: flex;
+    margin: 2ch;
+
+}
+.pc-imagebox {
+    width: 80ch;
+    height: 40ch
+}
+.pc-image {
+    max-width: 80ch;
+    width: 60ch;
+    max-height: 50ch;
+    width: 50ch;
+}
+.cel-textbox {
+    margin-left: 30ch;
+    margin-right: 30ch;
+}
+.cel-image {
+    max-width: 80ch;
+    width: 80ch;
+    max-height: 100ch;
+    height: 50ch;
+}
+.cel-items {
+    display: flex;
+    justify-content: center;
+   
+}
+.cel-features {
+    max-width: 30ch;
+}
+.featured-image {
+    height: 88.88px;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+}
+.about-us-box {
+    display: flex;
+    align-items: center;
+}
+.footer {
+    display: flex;
+}
+.social-medias {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 20ch;
+}

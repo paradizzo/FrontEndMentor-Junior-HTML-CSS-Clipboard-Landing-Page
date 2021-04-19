@@ -1,0 +1,187 @@
+:root {
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --DarkGrayishBlue: hsl(210, 10%, 33%);
+    --GrayishBlue: hsl(201, 11%, 66%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header {
+    background-image: url(images/bg-header-mobile.png);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.logo-box {
+    margin: 2ch;
+    display: inline-block;
+}
+.header-title {
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--DarkGrayishBlue);
+    margin: 2ch;
+}
+.header-sub-title {
+    color:  hsla(202, 11%, 66%, 0.644);;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin:2ch;
+}
+.button-box {
+    margin: 2ch;
+    display: block;
+    text-align: center;
+}
+.button-ios {
+    display: inline-block;
+    padding: 1.5ch 7ch;
+    background-color: var(--StrongCyan);
+    text-decoration: none;
+    border-radius: 40px;
+    margin: 2ch;
+    margin-bottom: 1ch;
+    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.726);
+    text-align: center;
+}
+.button-mac {
+    display: inline-block;
+    padding: 1.5ch 7ch;
+    background-color: var(--LightBlue);
+    text-decoration: none;
+    border-radius: 40px;
+    margin: 2ch;
+    margin-bottom: 1ch;
+    white-space: nowrap;
+    color: #fff;
+    text-align: center;
+}
+.content-pc {
+    text-align: center;
+}
+.pc-textbox {
+    text-align: center;
+}
+.pc-box-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 2ch;
+}
+.pc-box-sub-title {
+    text-align: center;
+    margin: 2ch;
+}
+.pc-sub-title {
+    text-align: center;
+    color:  hsla(202, 11%, 66%, 0.63);
+    line-height: 3ch;
+}
+.pc-imagebox {
+    margin: 2ch;
+    text-align: center;
+}
+.pc-image {
+    max-width: 40vh;
+    max-height: 40vh;
+}
+.pc-items {
+    margin: 2ch;
+    text-align: center;
+    list-style: none;
+    margin-top: 4ch;
+    margin-bottom: 15ch;
+}
+.features-title {
+    margin: 1ch;
+    font-weight: 600;
+    font-size: 25px;
+}
+.features-sub-title {
+    color:hsla(202, 11%, 66%, 0.63);
+    line-height: 2.5ch;
+}
+.cel-textbox {
+    text-align: center;
+    margin: 2ch;
+}
+.cel-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+.cel-sub-title {
+    text-align: center;
+    color:  hsla(202, 11%, 66%, 0.63);
+    line-height: 3ch;
+    margin: 2ch;
+    margin-bottom: 8ch;
+}
+.cel-imagebox {
+    text-align: center;
+}
+.cel-image {
+    max-width: 40vh;
+    max-height: 40vh;
+}
+.cel-title {
+    margin-top: 10ch;
+}
+.cel-features {
+    text-align: center;
+    margin: 2ch;
+    list-style: none;
+}
+.features-sub-title {
+    margin:2ch;
+}
+.featured-image {
+    padding: 2ch;
+    padding-top: 3ch;
+}
+.company-box {
+    text-align: center;
+    margin: 2ch;
+    margin-top: 15ch;
+    margin-bottom: 15ch;
+    list-style: none;
+    display:block;
+}
+.companies-logo {
+    list-style: none;
+    padding: 3ch;
+}
+.footer {
+    background-color:hsla(202, 11%, 66%, 0.281);
+    text-align: center;
+    display: block;
+    margin-top: 10ch;
+}
+.about-us-box {
+    margin: 2ch;
+}
+.footer-logo {
+    width: 5ch;
+    height: 5ch;
+    margin: 2ch;
+}
+.about-us-items {
+    list-style: none;
+    margin: 2ch;
+    font-weight: 600;
+}
+.social-medias {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+.logo-social {
+    padding: 2ch;
+}
